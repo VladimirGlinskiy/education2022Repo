@@ -1,3 +1,5 @@
-VladimirGlinskii.devFundamentals/VladimirGlinskii.devFundamentals.firstConsoleApplication/obj/
+VladimirGlinskii.devFundamentals/**/obj/
 
-VladimirGlinskii.devFundamentals/VladimirGlinskii.devFundamentals.firstConsoleApplication/bin/
+VladimirGlinskii.devFundamentals/**/bin/
+
+VladimirGlinskii.devFundamentals/.vs/
