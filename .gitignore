@@ -3,3 +3,9 @@ VladimirGlinskii.devFundamentals/**/obj/
 VladimirGlinskii.devFundamentals/**/bin/
 
 VladimirGlinskii.devFundamentals/**/.vs/
+
+**/**/obj/
+
+**/**/bin/
+
+**/**/.vs/
