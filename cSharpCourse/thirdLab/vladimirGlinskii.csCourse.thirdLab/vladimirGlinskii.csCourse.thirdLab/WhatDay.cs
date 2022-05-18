@@ -40,7 +40,6 @@ namespace vladimirGlinskii.csCourse.thirdLab
 
             MonthName monthName = (MonthName)monthNum; 
             Console.WriteLine("{0} {1}", dayNum, monthName);
-            Console.ReadLine();
         }
     }
 }
