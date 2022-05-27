@@ -34,11 +34,11 @@ namespace vladimirGlinskii.csCourse.fifthLab
                 contents[i] = (char)reader.Read();
             }
 
-            foreach (char ch in contents)
+/*            foreach (char ch in contents)
             {
                 Console.WriteLine(ch);
             }
-            reader.Close();
+            reader.Close();*/
 
             Summarize(contents);
 
@@ -54,29 +54,20 @@ namespace vladimirGlinskii.csCourse.fifthLab
 
                 if (Char.IsLetter(current))
                 {
-
                     if ("AEIOUaeiou".IndexOf(current) != -1)
                     {
-
                         vowels++;
-
                     }
                     else
                     {
-
                         consonants++;
-
                     }
-
                 }
 
                 else if (current == '\n')
                 {
-
                     lines++;
-
                 }
-
             }
 
             Console.WriteLine("Total no of characters: {0}", contents.Length);
