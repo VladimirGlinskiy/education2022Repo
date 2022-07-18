@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VGlinskii.winForm.Lab2.1_WinQuestion", "VGlinskii.winForm.Lab2.1_WinQuestion\VGlinskii.winForm.Lab2.1_WinQuestion.csproj", "{B9C9F3AF-B183-49DD-8A33-5CE7FFE9D4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C9F3AF-B183-49DD-8A33-5CE7FFE9D4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C9F3AF-B183-49DD-8A33-5CE7FFE9D4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C9F3AF-B183-49DD-8A33-5CE7FFE9D4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C9F3AF-B183-49DD-8A33-5CE7FFE9D4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65C4FFDD-353C-4C11-BFC2-1681A0C99C7A}
+	EndGlobalSection
+EndGlobal
