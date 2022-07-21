@@ -1,0 +1,3 @@
+VGlinskii.winForms.Lab1.1_
+
+VGlinskii.WPF.Lab1.1_
