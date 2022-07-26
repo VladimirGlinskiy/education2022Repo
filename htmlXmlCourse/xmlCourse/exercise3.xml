@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<ns:Timetable xmlns:ns = "http://www.itmo.ru/xml/lessons" >
+
+<ns:educationProgram>
+    <ns:subject id="1">
+        <ns:discipline>Разработчик профессионально ориентированных компьютерных технологий</ns:discipline>
+        <ns:subjectName>Технологии программирования</ns:subjectName>
+        <ns:teacher>ст. преп. Смольянинов А.В.</ns:teacher>
+        <ns:duration>50h</ns:duration>
+        <ns:dateOfStart>28.03.2022</ns:dateOfStart>
+        <ns:dateOfEnd>15.04.2022</ns:dateOfEnd>
+        <ns:textBook><url href="https://www.ozon.ru/product/logicheskie-oshibki-kak-oni-meshayut-pravilno-myslit-1958-uemov-avenir-ivanovich-253254770/?asb=n1mxcdRQJKod2itBT4GxvQ7pHoZbX0WCG7wJ8Yv0f%252Fs%253D&asb2=K1QhpwZlg7MUuCJXQlKSWIcqOYq0vO85hA87zAM-Fp-QyUQX3R7bV2yuuQjTITAH&keywords=логика+учебник&sh=hBEadgyd8Q"></url></ns:textBook>
+    </ns:subject>
+
+    <ns:subject id="2">
+        <ns:discipline>Разработчик профессионально ориентированных компьютерных технологий</ns:discipline>
+        <ns:subjectName>Введение в базы данных</ns:subjectName>
+        <ns:teacher>ст. преп. Ямщиков Д.В.</ns:teacher>
+        <ns:duration>30h</ns:duration>
+        <ns:dateOfStart>18.04.2022</ns:dateOfStart>
+        <ns:dateOfEnd>29.04.2022</ns:dateOfEnd>
+        <ns:textBook><url href="https://docs.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver15"></url></ns:textBook>
+    </ns:subject>
+
+    <ns:subject id="3">
+        <ns:discipline>Разработчик профессионально ориентированных компьютерных технологий</ns:discipline>
+        <ns:subjectName>Программирование на C#</ns:subjectName>
+        <ns:teacher>ст. преп. Смольянинов А.В.</ns:teacher>
+        <ns:duration>50h</ns:duration>
+        <ns:dateOfStart>11.05.2022</ns:dateOfStart>
+        <ns:dateOfEnd>31.05.2022</ns:dateOfEnd>
+        <ns:textBook><url href="https://github.com/ahejlsberg"></url></ns:textBook>
+    </ns:subject>
+</ns:educationProgram>

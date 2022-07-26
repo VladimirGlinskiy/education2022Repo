@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume>
+<candidate id="1">
+    <name>Иван</name>
+    <secondName>Иванов</secondName>
+    <patronymicName>Иванович</patronymicName>
+    <currentJob>ООО "Иван"</currentJob>
+    <currectPosition>Носитель штанов</currectPosition>
+    <dateOfBirth>01.01.1990</dateOfBirth>
+    <education>Высшее</education>
+    <addres>г.Ленинград. Улица Ленина дом 1. кв. 1</addres>
+    <phoneNumber>212-85-05</phoneNumber>
+    <familyStatus>Замужем</familyStatus>
+    <desiredSalary>1000000</desiredSalary>
+</candidate>
+
+<candidate id="2">
+        <name>Петр</name>
+        <secondName>Петров</secondName>
+        <patronymicName>Петрович</patronymicName>
+        <currentJob>ООО "Петр"</currentJob>
+        <currectPosition>Топтатель травы</currectPosition>
+        <dateOfBirth>02.02.1990</dateOfBirth>
+        <education>Высшее неоконченное</education>
+        <addres>г. Горький. Улица Ленина дом 1. кв. 2</addres>
+        <phoneNumber>212-85-06</phoneNumber>
+        <familyStatus>В активном поиске</familyStatus>
+        <desiredSalary>1200000</desiredSalary>
+</candidate>
+
+<candidate id="3">
+        <name>Сидор</name>
+        <secondName>Сидоров</secondName>
+        <patronymicName>Сидорович</patronymicName>
+        <currentJob>ООО "Сидор"</currentJob>
+        <currectPosition>Гонщик самоката</currectPosition>
+        <dateOfBirth>03.03.1990</dateOfBirth>
+        <education>Высшее неначатое</education>
+        <addres>г. Фрунзе. Улица Ленина дом 1. кв 3</addres>
+        <phoneNumber>212-85-07</phoneNumber>
+        <familyStatus>Все сложно</familyStatus>
+        <desiredSalary>1500000</desiredSalary>
+</candidate>
+</resume>

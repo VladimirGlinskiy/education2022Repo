@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+
+<educationProgram>
+    <subject id="1">
+    <discipline>Разработчик профессионально ориентированных компьютерных технологий</discipline>
+    <subjectName>Технологии программирования</subjectName>
+    <teacher>ст. преп. Смольянинов А.В.</teacher>
+    <duration>50h</duration>
+    <dateOfStart>28.03.2022</dateOfStart>
+    <dateOfEnd>15.04.2022</dateOfEnd>
+    </subject>
+
+    <subject id="2">
+        <discipline>Разработчик профессионально ориентированных компьютерных технологий</discipline>
+        <subjectName>Введение в базы данных</subjectName>
+        <teacher>ст. преп. Ямщиков Д.В.</teacher>
+        <duration>30h</duration>
+        <dateOfStart>18.04.2022</dateOfStart>
+        <dateOfEnd>29.04.2022</dateOfEnd>
+    </subject>
+
+    <subject id="3">
+        <discipline>Разработчик профессионально ориентированных компьютерных технологий</discipline>
+        <subjectName>Программирование на C#</subjectName>
+        <teacher>ст. преп. Смольянинов А.В.</teacher>
+        <duration>50h</duration>
+        <dateOfStart>11.05.2022</dateOfStart>
+        <dateOfEnd>31.05.2022</dateOfEnd>
+    </subject>
+</educationProgram>
