@@ -1,0 +1,29 @@
+p, p * {
+
+    color: #708090;
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:70px;
+    padding-left: 20px;
+    border-left: solid 20px #FFD700;
+
+}
+
+h2, h3{
+
+    color:#000080;
+    font-family: Times, serif;
+    border-bottom:1px solid #000080;
+    padding-top:7px;
+
+}
+
+h1{
+
+    font-size:3em;
+    border-bottom:2px solid green;
+    padding-bottom:20px;
+
+}
+
+
