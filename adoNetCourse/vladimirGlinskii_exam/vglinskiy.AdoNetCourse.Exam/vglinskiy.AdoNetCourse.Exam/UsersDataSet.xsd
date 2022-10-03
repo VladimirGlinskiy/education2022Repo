@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsersDataSet" targetNamespace="http://tempuri.org/UsersDataSet.xsd" xmlns:mstns="http://tempuri.org/UsersDataSet.xsd" xmlns="http://tempuri.org/UsersDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsersDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="UsersDataSet" msprop:Generator_DataSetName="UsersDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="users_list" msprop:Generator_RowEvHandlerName="users_listRowChangeEventHandler" msprop:Generator_RowDeletedName="users_listRowDeleted" msprop:Generator_RowDeletingName="users_listRowDeleting" msprop:Generator_RowEvArgName="users_listRowChangeEvent" msprop:Generator_TablePropName="users_list" msprop:Generator_RowChangedName="users_listRowChanged" msprop:Generator_RowChangingName="users_listRowChanging" msprop:Generator_TableClassName="users_listDataTable" msprop:Generator_RowClassName="users_listRow" msprop:Generator_TableVarName="tableusers_list" msprop:Generator_UserTableName="users_list">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_UserColumnName="user_id" type="xs:int" />
+              <xs:element name="nickName" msprop:Generator_ColumnPropNameInRow="nickName" msprop:Generator_ColumnPropNameInTable="nickNameColumn" msprop:Generator_ColumnVarNameInTable="columnnickName" msprop:Generator_UserColumnName="nickName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="role_name" msprop:Generator_ColumnPropNameInRow="role_name" msprop:Generator_ColumnPropNameInTable="role_nameColumn" msprop:Generator_ColumnVarNameInTable="columnrole_name" msprop:Generator_UserColumnName="role_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:users_list" />
+      <xs:field xpath="mstns:user_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
