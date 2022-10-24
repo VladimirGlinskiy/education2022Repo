@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="vglinskii.aspNet.Lab_1.FirstWebsite.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>RSVP</title>
+<link rel="stylesheet" type="text/css" href="Styles.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <style type="text/css">
+        .auto-style2 {
+            width: 114px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <table style="width:100%;">
+        <tr>
+            <td colspan="2" style="height:50px"><h2>RSVP</h2></td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <div class="menu">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" ForeColor="Red" EnableViewState="False" Orientation="Vertical">
+                    <Items>
+                    <asp:MenuItem NavigateUrl="~/Start.aspx" Text="Главная"/>
+                    <asp:MenuItem NavigateUrl="~/Reg.aspx" Text="Регистрация"/>
+                    <asp:MenuItem NavigateUrl="~/Summary.aspx" Text="Отчет о регистрации"/>
+                     </Items>
+                </asp:Menu>
+                </div>
+            </td>
+            <td>
+
+        <div style="height:250px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height:50px">
+                <div id="temo_footer">
+                    <ul class="footer_menu">
+                        <li><a href="Start.aspx">Главная</a></li>
+                        <li><a href="Reg.aspx">Регистрация</a></li>
+                        <li><a href="Summary.aspx">Отчет о регистрации</a></li>
+                        <li><a href="About.aspx">Подробности</a></li>
+                </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

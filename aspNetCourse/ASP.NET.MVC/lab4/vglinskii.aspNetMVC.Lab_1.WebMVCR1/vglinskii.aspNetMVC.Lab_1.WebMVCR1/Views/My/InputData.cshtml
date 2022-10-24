@@ -1,0 +1,34 @@
+﻿@model vglinskii.aspNetMVC.Lab_1.WebMVCR1.Models.Person
+
+@{
+    Layout = "~/Views/My/_BasicLayout.cshtml";
+    ViewBag.Title = "Форма";
+}
+
+
+    <div> 
+        
+        @using (Html.BeginForm())
+        {
+        <form method="post">
+            <table>
+                <tr>
+                    <td><p>Введите имя:</p></td>
+                    <td><input type="text" name=" FirstName" /></td>
+                </tr>
+
+                <tr>
+                    <td><p>Введите фамилию:</p></td>
+                    <td><input type="text" name="LastName" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Отправить" />
+                    </td>
+                </tr>    
+            </table>
+
+        </form>
+        }
+    </div>
+
