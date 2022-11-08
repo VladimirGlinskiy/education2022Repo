@@ -22,8 +22,8 @@ public class Lesson1 {
     }
 
     public static void division() {
-        int number = 100500;
-        int result = (number / 10) / 10;
+        double number = 5;
+        double result = (number / 10) / 10;
         System.out.println("(100500/10)/10 = " + result);
     }
 

@@ -9,8 +9,8 @@ class Study {
         this.course = courseName;
     }
 
-    public String printCourse() {
-        return this.course;
+    public void printCourse() {
+        System.out.println(this.course);
     }
 }
 
@@ -18,7 +18,7 @@ class JavaProgram {
 
     public static void main(String[] args) {
         Study study = new Study("Изучение Java - это просто!");
-        System.out.println(study.printCourse());
+        study.printCourse();
     }
 }
 

@@ -1,5 +1,3 @@
-import javax.sound.midi.Soundbank;
-
 public class Lesson2 {
 
     static class Calculator {
@@ -25,8 +23,8 @@ public class Lesson2 {
             return firstNumber + secondNumber;
         }
 
-        long division(long firstNumber, long secondNumber) {
-            return firstNumber / secondNumber;
+        double division(long firstNumber, long secondNumber) {
+            return (double) firstNumber / secondNumber;
         }
 
         long multiplication(long firstNumber, long secondNumber) {
@@ -42,8 +40,8 @@ public class Lesson2 {
             return firstNumber + secondNumber;
         }
 
-        int division(int firstNumber, int secondNumber) {
-            return firstNumber + secondNumber;
+        double division(int firstNumber, int secondNumber) {
+            return (double) firstNumber / secondNumber;
         }
 
         int multiplication(int firstNumber, int secondNumber) {
@@ -95,7 +93,7 @@ public class Lesson2 {
 
         System.out.println("Sum of " + a + " and " + b + " provided in type \"Double\" is: " + calc.summator(a, b));
 
-        long c = 922337203;
+        long c = 5;
         long d = 2;
 
         System.out.println("Division of " + c + " and " + d + " provided in type \"long\" is: " + calc.division(c, d));

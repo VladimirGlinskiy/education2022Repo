@@ -4,9 +4,7 @@ import java.util.regex.Pattern;
 
 public class Lessson5 {
 
-  static class WordsExecution{
-
-  void findThelongestWord(String s)
+  static void findThelongestWord(String s)
     {
 
       String[] res= s.split(" ");
@@ -23,7 +21,7 @@ public class Lessson5 {
       System.out.println("The longest word is: " + res[longestWordindex] + " Index is:" + longestWordindex);
     }
 
-    void isStringAPalindrome(String s){
+    static void isStringAPalindrome(String s){
 
       String[] res= s.split(" ");
       StringBuilder sb = new StringBuilder();
@@ -43,13 +41,13 @@ public class Lessson5 {
       }
   }
 
-  void censorship(String s){
+  static void censorship(String s){
     String str =s;
       str=str.replaceAll("(Б|б)(Я|я)(К|к)(А|а)", "[Вырезано цензурой]");
       System.out.println(str);
   }
 
-  void findAllSubstrings(String originalString, String substring){
+  static void findAllSubstrings(String originalString, String substring){
 
     Pattern pattern = Pattern.compile(substring.toLowerCase());
     Matcher matcher =  pattern.matcher(originalString.toLowerCase(Locale.ENGLISH));
@@ -61,7 +59,7 @@ public class Lessson5 {
     System.out.println("There are "+count+ " matches of word: " + substring);
   }
 
-  void revertWords(String s){
+  static void revertWords(String s){
     String[] res= s.split(" ");
     String result = "";
     for (String item:res) {
@@ -73,34 +71,32 @@ public class Lessson5 {
     System.out.println("Result of reverse each word: " + result);
   }
 
-  }
-
 
   public static void main(String[] args) {
 
-    WordsExecution wordsExecution = new WordsExecution();
-    wordsExecution.findThelongestWord("АБВ АБВГ АБВГД"); //
-    wordsExecution.findThelongestWord("АБВГД АБВГ АБВ");
-    wordsExecution.findThelongestWord("АБВ АБВ АБВ");
-    wordsExecution.findThelongestWord("АБ АБ АБВ");
-    wordsExecution.findThelongestWord("АБВ АБВГД АБВГ");
+    
+    findThelongestWord("АБВ АБВГ АБВГД"); //
+    findThelongestWord("АБВГД АБВГ АБВ");
+    findThelongestWord("АБВ АБВ АБВ");
+    findThelongestWord("АБ АБ АБВ");
+    findThelongestWord("АБВ АБВГД АБВГ");
     System.out.println("====separator====");
-    wordsExecution.isStringAPalindrome("И у облаков вокал Боуи");
-    wordsExecution.isStringAPalindrome("У попа была собака");
-    wordsExecution.isStringAPalindrome("арозаупаланалапуазора");
-    wordsExecution.isStringAPalindrome("мыло — голым!");
-    wordsExecution.isStringAPalindrome("мыло голым");
+    isStringAPalindrome("И у облаков вокал Боуи");
+    isStringAPalindrome("У попа была собака");
+    isStringAPalindrome("арозаупаланалапуазора");
+    isStringAPalindrome("мыло — голым!");
+    isStringAPalindrome("мыло голым");
     System.out.println("====separator====");
-    wordsExecution.censorship("СобакабякасобакаБяБЯкасобакаБЯКАсобака");
-    wordsExecution.censorship("СкорБЯ КАк собака бяка");
+    censorship("СобакабякасобакаБяБЯкасобакаБЯКАсобака");
+    censorship("СкорБЯ КАк собака бяка");
     System.out.println("====separator====");
-    wordsExecution.findAllSubstrings("«James, while John had had “Had”, had had ”had had”; “Had had” had had a better effect on the teacher»"
+    findAllSubstrings("«James, while John had had “Had”, had had ”had had”; “Had had” had had a better effect on the teacher»"
         + "— предложение на английском языке, которое используют для демонстрации возможной лексической неопределённости",
         "had");
-    wordsExecution.findAllSubstrings("Well, there's egg and bacon; egg sausage and bacon; egg and spam; egg bacon and spam; "
+    findAllSubstrings("Well, there's egg and bacon; egg sausage and bacon; egg and spam; egg bacon and spam; "
             + "egg bacon sausage and spam; spam bacon sausage and spam; spam egg spam spam bacon and spam; "
             + "spam sausage spam spam bacon spam tomato and spam;", "spam");
     System.out.println("====separator====");
-    wordsExecution.revertWords("Per aspera ad astra  = лат. \"Через тернии к звёздам\" ");
+    revertWords("Per aspera ad astra  = лат. \"Через тернии к звёздам\" ");
   }
 }

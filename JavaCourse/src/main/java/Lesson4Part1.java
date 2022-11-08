@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 class Lesson4Part1 {
 
@@ -24,39 +25,29 @@ class Lesson4Part1 {
     }
 
 
-    public static void isSumOfNimbersIsThirdNumber(int a, int b, int c) {
+    public static boolean isSumOfNimbersIsThirdNumber(int a, int b, int c) {
         boolean result = a + b == c;
         System.out.println(result);
+        return result;
     }
 
-    public static void areNumbersInProperRange(int a, int b, int c) {
+    public static boolean areNumbersInProperRange(int a, int b, int c) {
         boolean result = a < b & b < c;
         if (result) {
             System.out.println(result);
             System.out.println(String.format("Numbers: %s, %s, %s", a, b, c));
         }
+        return result;
     }
 
-    public static void isThreeIsFirstOrLeastNumberInArrow(int... i) {
+    public static boolean isThreeIsFirstOrLeastNumberInArray(int... i) {
         boolean result = false;
         if (i[0] == 3 || i[i.length - 1] == 3) {
             result = true;
         }
-
-        String array = "";
-        int counter = 0;
-
-        for (int a : i) {
-            array += a;
-            counter++;
-
-            if (counter != i.length) {
-                array += ", ";
-            }
-        }
-
-        System.out.println("array = " + array);
+        System.out.println(Arrays.toString(i));
         System.out.println(result);
+        return result;
     }
 
     public static void isArrayIncludesThreeOrOne(int... i) {
@@ -90,12 +81,12 @@ class Lesson4Part1 {
         areNumbersInProperRange(0, 1, 0);
         areNumbersInProperRange(1, 0, 0);
         System.out.println("--separator--");
-        isThreeIsFirstOrLeastNumberInArrow(2, 3, 4);
-        isThreeIsFirstOrLeastNumberInArrow(3, 3, 4);
-        isThreeIsFirstOrLeastNumberInArrow(0, 1, 3);
-        isThreeIsFirstOrLeastNumberInArrow(3, 0, 3);
-        isThreeIsFirstOrLeastNumberInArrow(1, 0, 0);
-        isThreeIsFirstOrLeastNumberInArrow(-3, 0, 0);
+        isThreeIsFirstOrLeastNumberInArray(2, 3, 4);
+        isThreeIsFirstOrLeastNumberInArray(3, 3, 4);
+        isThreeIsFirstOrLeastNumberInArray(0, 1, 3);
+        isThreeIsFirstOrLeastNumberInArray(3, 0, 3);
+        isThreeIsFirstOrLeastNumberInArray(1, 0, 0);
+        isThreeIsFirstOrLeastNumberInArray(-3, 0, 0);
         System.out.println("--separator--");
         isArrayIncludesThreeOrOne(1, 2, 3);
         isArrayIncludesThreeOrOne(1, 2, 2);
