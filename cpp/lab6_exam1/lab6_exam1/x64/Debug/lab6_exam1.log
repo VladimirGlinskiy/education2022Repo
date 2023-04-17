@@ -1,0 +1,8 @@
+﻿  lab6_exam1.cpp
+C:\Users\alexb\source\repos\lab6_exam1\lab6_exam1\lab6_exam1.cpp(16,32): warning C4305: аргумент: усечение из "int" в "_Elem"
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\alexb\source\repos\lab6_exam1\lab6_exam1\lab6_exam1.cpp(16,28): warning C4309: аргумент: усечение константного значения
+  lab6_exam1.vcxproj -> C:\Users\alexb\source\repos\lab6_exam1\x64\Debug\lab6_exam1.exe

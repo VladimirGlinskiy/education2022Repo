@@ -1,0 +1,79 @@
+﻿  lab5_exersice5.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(170,47): warning C4244: инициализация: преобразование "_Ty" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(265): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)"
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(265): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)"
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(265): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<int,double>::tuple<std::_Exact_args_t,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&)"
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(265): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<int,double>::tuple<std::_Exact_args_t,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&)"
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(1039): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double,0>(_Tag,_This2 &&,double &&,double &&)"
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(1039): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double,0>(_Tag,_This2 &&,double &&,double &&)"
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(272): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)"
+          with
+          [
+              _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(272): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)"
+          with
+          [
+              _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(408): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Unpack_tuple_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>,0>(_Tag,_Tpl &&)"
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple(408): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::_Unpack_tuple_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>,0>(_Tag,_Tpl &&)"
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double>
+          ]
+C:\Users\alexb\source\repos\lab5_exersice5\lab5_exersice5\lab5_exersice5.cpp(35): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double,0>(std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double> &&) noexcept"
+C:\Users\alexb\source\repos\lab5_exersice5\lab5_exersice5\lab5_exersice5.cpp(35): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<std::string,int,double>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double,0>(std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,double> &&) noexcept"
+  lab5_exersice5.vcxproj -> C:\Users\alexb\source\repos\lab5_exersice5\x64\Debug\lab5_exersice5.exe
