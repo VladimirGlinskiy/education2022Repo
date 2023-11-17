@@ -1,0 +1,110 @@
+.roverName {
+    position: absolute;
+    transform: translate(-100%, -50%);
+
+    left: -10px;
+    top: 50%;
+    font-size: 12px;
+}
+
+
+.line {
+    background-color: #37486F;
+    height: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.line:before, .line:after {
+    height: 10px;
+    width: 10px;
+    background-color: #BDBEAD;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 50%;
+}
+
+.line:before {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.line:after {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+
+.spiritRover > .line {
+    width: 30%;
+    left: 10%;
+}
+
+
+.opportunityRover > .line {
+    width: 65%;
+    left: 10%;
+}
+
+
+.curiosityRover > .line {
+    width: 50%;
+    left: 50%;
+}
+
+
+.perseveranceRover > .line {
+    width: 10%;
+    left: 90%;
+}
+
+
+.yearsCover {
+    display: inline-block;
+    width: 100%;
+}
+
+.years {
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 12px;
+
+}
+
+.year {
+    position: absolute;
+    transform: translateX(-50%);
+
+}
+
+.year2004 {
+    left: 10%;
+}
+
+.year2010 {
+    left: 40%;
+}
+
+.year2012 {
+    left: 50%;
+}
+
+.year2018 {
+    left: 75%;
+}
+
+.year2021 {
+    left: 90%;
+}
+
+.year2023 {
+    right: 0;
+    transform: translateX(50%);
+}
+
+.schedule{
+    width: 95%;
+}

@@ -1,0 +1,27 @@
+const roverDates = '{
+{
+  "roverName": "spirit",
+  "landing_date": "2004-01-04æ,
+  "max_date": "2010-03-21"
+}
+,
+{
+"roverName": "opportunity",
+"landing_date": "2004-01-25",
+"max_date"
+: "2018-06-11"
+},
+{
+"roverName": "curiosity",
+"landing_date"
+: "2012-08-06",
+"max_date": ""
+},
+{
+"roverName"
+: "perseverance",
+"landing_date": "2021-02-18",
+"max_date": ""
+}
+}
+'

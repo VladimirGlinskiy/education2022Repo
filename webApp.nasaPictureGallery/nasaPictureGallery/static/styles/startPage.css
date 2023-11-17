@@ -1,0 +1,60 @@
+
+.startPageVideoBlock {
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    opacity: 0.3;
+}
+
+.wrapper {
+    border: #f3f3f3 solid 4px;
+}
+
+
+video {
+    height: 100%;
+
+}
+
+.startPageButtonsBlock {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.startPageButtonsBlock a {
+    text-decoration: none !important;
+}
+
+.startPageButton {
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    border: solid 1px #f3f3f3;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.startPageButton p {
+    margin: auto;
+    padding: 5%;
+    font-weight: bold;
+    font-size: 22px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px #000;
+    user-select: none;
+}
+
+.toHistory {
+    background: url(../media/history.jpeg);
+    background-size: cover;
+}
+
+.toGallery {
+    background: url(../media/surface.png);
+    background-size: cover;
+}

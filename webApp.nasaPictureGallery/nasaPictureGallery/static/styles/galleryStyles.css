@@ -1,0 +1,126 @@
+
+.galleryCover {
+    margin: auto;
+    width: 90%;
+    border-top: solid 2px rgba(0, 0, 0, 0.3);
+}
+
+.gallery {
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.lastImage{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    position: relative;
+    width: 70%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.observer {
+    height: 10px;
+}
+
+
+.marsPhotoCard{
+     width: 32%;
+     display: inline-block;
+     margin-right: 2%;
+    margin-bottom: 1%;
+ }
+
+.marsPhotoCard:nth-child(3n){
+
+    margin-right: 0;
+}
+
+.marsPhoto {
+    width: 100%;
+    border-radius: 10px;
+    border: white solid 2px;
+}
+
+.marsPhoto:hover {
+    border-color: dodgerblue;
+}
+
+.labelCover{
+    font-size: 10px;
+}
+
+.roverNameLabel {
+    margin: 5px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+.likes{
+    display: inline-block;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.comments{
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.photoRoverName {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.farewellWord{
+    text-align: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+a:hover {
+    cursor: pointer;
+    border-color: bisque;
+}
+
+.locker {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.imageCard img {
+    border-radius: 20px;
+    border: white solid 5px;
+    z-index: 3;
+    max-height: 70vh;
+    max-width: 60vw;
+    opacity: 1;
+
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50vw;
+
+    top: 5vh;
+
+    margin: auto;
+}
+
+.commentField{
+    z-index: 3;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+

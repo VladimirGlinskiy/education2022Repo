@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="/styles/_styles.css">
+    <link rel="stylesheet" href="/styles/galleryStyles.css">
+    <link rel="stylesheet" href="/styles/timeLineStyles.css">
+    <link rel="stylesheet" href="/styles/datePickerStyles.css">
+    <link rel="stylesheet" href="/photoViewerStyles.css">
+    <script type="module" src="/js/request.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="background overflow">
+    <div class="datePickerCover">
+        <div class="datePicker">
+            <p class="chooseDate">Выберите день экспедиции:</p>
+            <input class="date" type="date"
+                   min="2004-01-04" > </div>
+    </div>
+    <div class="schedule">
+        <div class="spiritRover timeline">
+
+            <div class="line">
+                <div class="roverName">Spirit</div>
+            </div>
+        </div>
+        <div class="opportunityRover timeline">
+
+            <div class="line">
+                <div class="roverName">Opportunity</div>
+            </div>
+        </div>
+        <div class="curiosityRover timeline">
+
+                <div class="line">
+                    <div class="roverName">Curiosity</div>
+                </div>
+        </div>
+        <div class="perseveranceRover timeline">
+
+            <div class="line">
+                <div class="roverName">Perseverance</div>
+            </div>
+        </div>
+
+        <div class="yearsCover">
+            <div class="years">
+                <div class="year year2004">2004</div>
+                <div class="year year2010">2010</div>
+                <div class="year year2012">2012</div>
+                <div class="year year2018">2018</div>
+                <div class="year year2021">2021</div>
+                <div class="year year2023">2023</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="galleryCover">
+        <div class="gallery">
+        </div>
+        <div class="observer"></div>
+    </div>
+
+    <div class="goBackButton">
+        <a href="startPage.html">
+            <img src="media/arrow-left-55.svg">
+        </a>
+    </div>
+
+    <div class="goFeedbackButton">
+        <span>Авторизоваться</span>
+        <a href="feedbackForm.html">
+        </a>
+    </div>
+
+
+</body>
+
+
+</html>

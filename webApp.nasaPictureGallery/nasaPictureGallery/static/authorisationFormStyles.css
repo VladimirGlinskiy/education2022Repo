@@ -1,0 +1,72 @@
+.formBackground{
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 3;
+
+    left: 50%;
+}
+
+label{
+padding: 10px;
+}
+
+input{
+    position: absolute;
+    left: 100px;
+}
+
+
+
+.loginBlock {
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.errorMessage{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 5px;
+}
+
+.passBlock {
+    margin-top: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 40px;
+}
+
+.headLabel{
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.buttonBlock{
+    display: flex;
+    justify-content: space-around;
+}
+
+.registerButton{
+
+
+}
+
+.registerButton>button{
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
+}
